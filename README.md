@@ -3,7 +3,7 @@
 A Python SDK for interacting with the Claude CLI tool.
 
 ---
-Codesys ships with two production-ready agents:
+Codesys ships with sync and async classes:
 
 1. `Agent` – **enhanced synchronous** SDK with professional-grade features (MCP support, advanced tool management, retries, time-outs, structured responses, etc.). (`codesys/agent.py`)
 2. `AsyncAgent` – the **fully asynchronous** counterpart offering identical functionality via `async/await` for non-blocking workflows. (`codesys/async_agent.py`)
