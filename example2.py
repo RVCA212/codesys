@@ -10,9 +10,9 @@ agent = Agent(working_dir=working_dir)
 agent.run("hello, my name is sean", stream=True)
 
 bash_only_response = agent.run_with_tools(
-	prompt="what was my last query?",
+    prompt="what was my last query?",
     tools=["Bash"],
-	stream=True,
+    stream=True,
     continue_session=True,
 )
 
